@@ -1,0 +1,22 @@
+#advokat-peneva {
+    background-color: var(--color-main);
+    color: rgb(var(--color-main-background));
+}
+
+#advokat-peneva .one-col .section-resume {
+    padding-bottom: 1em;
+
+}
+
+#advokat-peneva .two-col h3 {
+    padding-top: 2em;
+    padding-bottom: 1.5em;
+}
+
+#advokat-peneva .two-col .peneva-copy {
+    padding-bottom: 1.5em;
+}
+
+#advokat-peneva .two-col .peneva-copy p {
+    text-indent: 1em;
+}

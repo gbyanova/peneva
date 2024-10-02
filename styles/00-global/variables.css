@@ -1,0 +1,21 @@
+:root {
+    --font-base-size: 12px;
+    --font-line-height: 1.5;
+    --base-spacing: 1.5em;
+    --body-font-family: "Source Sans 3", sans-serif;
+    --headings-font-hamily: "Merriweather", serif;
+
+    --font-color: #333;
+    --color-main: #2966BB;
+    --color-main-second: #204F91;
+    --color-main-background: 238, 238, 238;
+    --transparency: 0.7;
+
+    --border: 1px solid var(--font-color);
+    --border-color-main: 1px solid var(--color-main);
+    --border-color-main-second: 3px solid var(--color-second);
+    --border-color-main-background: 1px solid var(--color-main-background);
+
+    --box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.1);
+    --text-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.5);
+}

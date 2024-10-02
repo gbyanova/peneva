@@ -1,0 +1,35 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.testimonial .icon {
+    font-size: 3em;
+}
+
+.testimonial .copy {
+    padding-bottom: 1em;
+}
+
+.testimonial .test-footer {
+    margin-top: auto;
+    border-top: var(--border);
+    padding-top: 0.5em;
+}
+
+.testimonial .test-footer .autor {
+    opacity: 50%;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.testimonial .test-footer .ocupation {
+    opacity: 50%;
+    font-style: italic;
+    font-size: 0.8em;
+
+}

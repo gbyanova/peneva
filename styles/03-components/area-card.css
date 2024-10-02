@@ -1,0 +1,23 @@
+/**/
+
+.area-card h3 {
+    color: var(--color-main);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid var(--color-main);
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.area-card ul li {
+    list-style-type: none;
+    margin-bottom: 0.3em;
+}
+
+.area-card ul li::first-letter {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--headings-font-hamily);
+
+}

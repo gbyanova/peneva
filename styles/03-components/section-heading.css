@@ -1,0 +1,21 @@
+.section-subtitle {
+    text-transform: uppercase;
+    padding-bottom: 0;
+    letter-spacing: 0.0625em;
+}
+
+.section-header-hr {
+    width: 5em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    opacity: 50%;
+}
+
+.section-header-title {
+    padding-bottom: 1em;
+}
+
+.section-resume {
+    text-transform: uppercase;
+
+}

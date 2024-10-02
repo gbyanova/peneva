@@ -1,0 +1,98 @@
+@media only screen and (width <=480px) {
+    :root {
+        --font-base-size: 12px;
+    }
+
+}
+
+@media only screen and (width > 480px) {
+    :root {
+        --font-base-size: 14px;
+    }
+
+    body .section-wraper {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+}
+
+@media only screen and (width > 768px) {
+    :root {
+        --font-base-size: 16px;
+    }
+
+    #law-firm .content-wraper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #law-firm .content-wraper .law-firm-content {
+        flex: 1 0 65%;
+    }
+
+    #law-firm .content-wraper .law-firm-picture {
+        flex: 1 0 25%;
+        align-self: center;
+        max-width: 20em;
+    }
+
+    #services .areas-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #services .areas-list .area-card {
+        flex: 1 0 25%
+    }
+
+    #advokat-peneva .two-col {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #advokat-peneva .two-col .peneva-copy {
+        flex: 1 0 65%;
+    }
+
+    #advokat-peneva .two-col .peneva-img {
+        flex: 1 0 25%;
+        align-self: center;
+        max-width: 20em;
+    }
+
+    #testimonials .testimonials-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    #testimonials .testimonials-list .testimonial {
+        flex: 1 0 25%;
+    }
+}
+
+@media only screen and (width > 1024px) {
+    :root {
+        --font-base-size: 18px;
+    }
+
+    .section-wraper {
+        max-width: 1200px;
+    }
+
+}
+
+@media only screen and (width > 1280px) {
+    :root {
+        --font-base-size: 20px;
+    }
+
+}

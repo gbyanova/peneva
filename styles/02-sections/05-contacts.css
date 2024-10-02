@@ -1,0 +1,37 @@
+#contacts {
+    background-color: var(--color-main);
+    color: rgb(var(--color-main-background));
+}
+
+#contacts .site-logo {
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+
+#contacts .contact .contacts-title {
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+#contacts .cnt {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts .cnt .one-col-cnt .title {
+    display: inline-block;
+}
+
+#contacts .cnt .one-col-cnt .copy {
+    display: inline-block;
+}
+
+#contacts .cnt .two-col-cnt {
+    display: flex;
+    margin-bottom: 2em;
+    gap: 3em
+}
+
+#contacts .cnt .two-col-cnt .contact-details {
+    flex: 1 0 40;
+}

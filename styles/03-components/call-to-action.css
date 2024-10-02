@@ -1,0 +1,16 @@
+.call-to-action {
+    background-color: rgba(var(--color-main-background), var(--transparency));
+    text-align: center;
+    padding: 2em 3em;
+    margin-bottom: 2em;
+    border-radius: 0.2em;
+}
+
+.call-to-action p {
+    font-family: var(--headings-font-hamily);
+    text-transform: uppercase;
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+}

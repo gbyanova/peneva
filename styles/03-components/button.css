@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--color-main);
+    font-family: var(--body-font-family);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.0625em;
+    color: rgb(var(--color-main-background));
+    border-radius: 0.2em;
+    padding: 1em 3em;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: var(--color-main-second);
+    cursor: pointer;
+}
