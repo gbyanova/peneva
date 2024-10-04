@@ -12,6 +12,7 @@
     font-weight: bold;
     letter-spacing: 0.0625em;
     color: rgb(var(--color-main-background));
+    text-decoration: none;
 }
 
 
