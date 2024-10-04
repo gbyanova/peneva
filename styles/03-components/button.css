@@ -1,6 +1,6 @@
 .button {
+    background-color: var(--color-main);
 
-    background-color: var(--color-main-second);
     border-radius: 0.2em;
     padding: 1em 3em;
     transition: 0.5s;
@@ -17,6 +17,6 @@
 
 
 .button:hover {
-    background-color: var(--color-main);
+    background-color: var(--color-main-second);
     cursor: pointer;
 }
