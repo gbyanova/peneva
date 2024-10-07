@@ -17,6 +17,7 @@
 
 .site-header .site-nav {
     margin-top: 2em;
+    width: 100%;
 }
 
 .site-header nav li a {
