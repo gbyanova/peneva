@@ -22,8 +22,14 @@
     display: none;
 }
 
-#toggle-nav-label .open i {
+#toggle-nav-label .open svg {
     color: var(--body-font-family);
+}
+
+#toggle-nav-label .close svg {
+    width: 2em;
+    height: auto;
+    color: rgb(var(--color-main-background));
 }
 
 #toggle-nav:checked~.site-header nav {

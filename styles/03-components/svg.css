@@ -9,9 +9,3 @@
     height: auto;
     color: var(--font-color);
 }
-
-#toggle-nav-label svg .close {
-    width: 2em;
-    height: auto;
-    color: rgb(var(--color-main-background));
-}
