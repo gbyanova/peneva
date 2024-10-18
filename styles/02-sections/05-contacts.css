@@ -13,25 +13,10 @@
     margin-top: 2em;
 }
 
-#contacts .cnt {
-    display: flex;
-    flex-direction: column;
-}
-
-#contacts .cnt .one-col-cnt .title {
+#contacts .cnt .title {
     display: inline-block;
 }
 
-#contacts .cnt .one-col-cnt .copy {
+#contacts .cnt .copy {
     display: inline-block;
-}
-
-#contacts .cnt .two-col-cnt {
-    display: flex;
-    margin-bottom: 2em;
-    gap: 3em
-}
-
-#contacts .cnt .two-col-cnt .contact-details {
-    flex: 1 0 40;
 }
