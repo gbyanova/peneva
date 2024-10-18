@@ -31,10 +31,12 @@
 .site-logo .title .accent {
     font-weight: bolder;
     letter-spacing: 0.5px;
+    color: var(--color-main);
 }
 
 .site-logo .name .accent {
     font-weight: bolder;
+    color: var(--color-main);
 }
 
 .site-logo-footer a {
