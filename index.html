@@ -42,7 +42,7 @@
 
                     <nav class="site-nav">
                         <ul>
-                            <li><a href="#site-header">Начало</a></li>
+                            <li><a onclick="closeMenu()" href="#site-header">Начало</a></li>
                             <li><a href="#services">Нашите услуги</a></li>
                             <li><a href="#advokat-peneva">За нас</a></li>
                             <li><a href="#testimonials">Препоръки</a></li>
@@ -326,7 +326,7 @@
                     </p>
                     <hr class="section-header-hr">
                     <h2 class="section-header-title">
-                        Препоръки
+                        Защо да изберете нас
                     </h2>
                     <div class="testimonials-list">
                         <div class="testimonial">
@@ -491,7 +491,15 @@
         </footer>
     </div>
     <script>
+        function closeMenu() {
+            console.log('menu closed!');
+        }
 
+        let menuItem
+
+        $('.site-nav a').on('click', function () {
+            $('#toggle-nav-label span').removeClass('open');
+        });
     </script>
 </body>
 

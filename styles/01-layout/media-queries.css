@@ -3,6 +3,8 @@
         --font-base-size: 12px;
     }
 
+
+
     #testimonials .testimonials-list {
         display: flex;
         flex-wrap: wrap;

@@ -26,12 +26,6 @@
     color: var(--body-font-family);
 }
 
-#toggle-nav-label .close svg {
-    width: 2em;
-    height: auto;
-    color: rgb(var(--color-main-background));
-}
-
 #toggle-nav:checked~.site-header nav {
     display: block;
     z-index: 1;

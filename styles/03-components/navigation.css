@@ -29,3 +29,9 @@
     /*font-weight: bold;*/
     letter-spacing: 0.0625em;
 }
+
+#toggle-nav-label .close svg {
+    width: 2em;
+    height: auto;
+    color: rgb(var(--color-main-background));
+}
