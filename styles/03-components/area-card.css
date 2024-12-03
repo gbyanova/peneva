@@ -15,6 +15,10 @@
     margin-bottom: 0.3em;
 }
 
+.area-card ul li p {
+    padding-bottom: 0.5em;
+}
+
 /*.area-card ul li::first-letter {
     font-size: 1rem;
     font-weight: bold;

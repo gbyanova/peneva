@@ -1,4 +1,4 @@
 .law-firm {
-    background-color: var(--color-main);
-    color: rgb(var(--color-main-background));
+    color: var(--color-main-second);
+    background-color: var(--color-white);
 }

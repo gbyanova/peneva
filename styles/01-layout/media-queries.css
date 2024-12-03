@@ -80,11 +80,11 @@
     }
 
     #law-firm .content-wraper .law-firm-content {
-        flex: 1 0 65%;
+        flex: 1 0 50%;
     }
 
     #law-firm .content-wraper .law-firm-picture {
-        flex: 1 0 25%;
+        flex: 1 0 50%;
         align-self: center;
         max-width: 20em;
     }
@@ -108,11 +108,11 @@
     }
 
     #advokat-peneva .two-col .peneva-copy {
-        flex: 1 0 65%;
+        flex: 1 0 50%;
     }
 
     #advokat-peneva .two-col .peneva-img {
-        flex: 1 0 25%;
+        flex: 1 0 50%;
         align-self: center;
         max-width: 20em;
     }

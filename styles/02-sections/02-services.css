@@ -1,7 +1,24 @@
+#services {
+    color: var(--font-color);
+    background-color: rgb(var(--color-main-background));
+}
+
+#services h2,
+#services .section-subtitle {
+    color: var(--color-main-second);
+}
+
 #services .section-header-title {
     padding-bottom: 0;
 }
 
 #services li {
-    text-indent: 1em;
+    /*text-indent: 1em;*/
 }
+
+/*#services li::before {
+    text-indent: 1em;
+    content: '-';
+    display: inline-block;
+    color: var(--color-main-second);
+}*/

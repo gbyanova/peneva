@@ -10,6 +10,11 @@
     padding-bottom: 1em;
 }
 
+.testimonial svg {
+    fill: var(--color-main);
+    font-size: 1em;
+}
+
 .testimonial .test-footer {
     margin-top: auto;
     border-top: var(--border);

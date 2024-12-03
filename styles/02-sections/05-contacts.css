@@ -1,6 +1,7 @@
 #contacts {
-    background-color: var(--color-main);
+    background-color: var(--color-main-second);
     color: rgb(var(--color-main-background));
+    background: linear-gradient(180deg, rgba(var(--color-main-second-background), 1), rgba(var(--color-main-first-background), 1)), url("./../../images/mac-2207377_1920.jpg")
 }
 
 #contacts .site-logo {

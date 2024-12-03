@@ -1,10 +1,14 @@
+.navigation .open {
+    fill: var(--color-white);
+}
+
 .site-header nav {
     position: absolute;
     width: 100%;
     top: 0;
     left: 0;
-    background: var(--color-main);
-    opacity: 95%;
+    background: rgb(var(--color-main-background));
+    opacity: 90%;
     padding: 1em 2em;
     display: none;
 }
@@ -24,14 +28,14 @@
     display: block;
     padding: 1em 0;
     text-decoration: none;
-    color: rgb(var(--color-main-background));
+    color: var(--color-main-second);
     text-transform: uppercase;
-    /*font-weight: bold;*/
+    font-weight: bold;
     letter-spacing: 0.0625em;
 }
 
 #toggle-nav-label .close svg {
     width: 2em;
     height: auto;
-    color: rgb(var(--color-main-background));
+    fill: var(--color-main-second);
 }
