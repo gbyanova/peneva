@@ -16,6 +16,10 @@
     /*text-indent: 1em;*/
 }
 
+#services .first{
+    display: none;
+}
+
 /*#services li::before {
     text-indent: 1em;
     content: '-';

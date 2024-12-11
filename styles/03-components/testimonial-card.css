@@ -4,6 +4,10 @@
     text-decoration: none;
     margin-bottom: 1em;
     margin-top: 1em;
+    padding: 2em;
+    background-color: var(--color-white);
+    border-radius: 0.2em;
+    box-shadow: var(--box-shadow);
 }
 
 .testimonial .copy {
@@ -12,7 +16,7 @@
 
 .testimonial svg {
     fill: var(--color-main);
-    font-size: 1em;
+    font-size: 0.3em;
 }
 
 .testimonial .test-footer {
