@@ -17,7 +17,7 @@
 }
 
 .testimonial svg {
-    fill: rgb(var(--color-main-background));
+    fill: var(--color-main);
     font-size: 0.3em;
 }
 
