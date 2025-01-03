@@ -2,3 +2,7 @@
     color: var(--color-main-second);
     background-color: var(--color-white);
 }
+
+.law-firm h1{
+    color: var(--color-main);
+}

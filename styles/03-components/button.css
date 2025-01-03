@@ -21,6 +21,7 @@
     background-color: rgb(var(--color-main-background));
     cursor: pointer;
     color: var(--color-main-second);
+    
 }
 
 .button:hover a {

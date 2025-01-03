@@ -1,6 +1,7 @@
 @import url(00-global/reset.css);
 @import url(00-global/variables.css);
 @import url(00-global/typography.css);
+@import url(00-global/colors.css);
 
 @import url(01-layout/media-queries.css);
 @import url(01-layout/global.css);

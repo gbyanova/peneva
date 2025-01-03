@@ -1,7 +1,21 @@
-#contacts {
+.contacts {
     background-color: var(--color-main-second);
     color: rgb(var(--color-main-background));
-    background: linear-gradient(180deg, rgba(var(--color-main-second-background), 1), rgba(var(--color-main-first-background), 1)), url("./../../images/mac-2207377_1920.jpg")
+    /*background: linear-gradient(180deg, rgba(var(--color-main-second-background), 1), rgba(var(--color-main-first-background), 0.6)), url("./../../images/scale.png")rgba(var(--color-main-first-background), 0.6);*/
+    background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/scale.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacts .section-wraper {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+}
+
+#contacts{
+    
 }
 
 #contacts .site-logo {

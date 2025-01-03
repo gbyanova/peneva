@@ -3,7 +3,10 @@
     color: var(--font-color);
 }
 
-#advokat-peneva h2,
+#advokat-peneva h2{
+    color: var(--color-main);
+}
+
 #advokat-peneva .section-subtitle {
     color: var(--color-main-second);
 }

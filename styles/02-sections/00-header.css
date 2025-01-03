@@ -1,6 +1,7 @@
 #site-header {
     /*padding-top: 2em;*/
-    background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/transparent-chess-5516446-72-dpi.png");
+    background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/M.png");
+    /*background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1));*/
     /*background-image: url("./../../images/transparent-chess-5516446-72-dpi.png");*/
     background-position: center;
     background-repeat: no-repeat;

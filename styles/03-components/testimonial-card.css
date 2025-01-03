@@ -5,27 +5,30 @@
     margin-bottom: 1em;
     margin-top: 1em;
     padding: 2em;
-    background-color: var(--color-white);
+    /*background-color: rgb(var(--color-main-background), 50%);*/
     border-radius: 0.2em;
+    border: var(--border-color-main-background);
     box-shadow: var(--box-shadow);
 }
 
 .testimonial .copy {
     padding-bottom: 1em;
+    
 }
 
 .testimonial svg {
-    fill: var(--color-main);
+    fill: rgb(var(--color-main-background));
     font-size: 0.3em;
 }
 
 .testimonial .test-footer {
     margin-top: auto;
-    border-top: var(--border);
+    border-top: var(--border-color-main);
     padding-top: 0.5em;
 }
 
 .testimonial .test-footer .autor {
+    
     opacity: 50%;
     display: block;
     text-transform: uppercase;

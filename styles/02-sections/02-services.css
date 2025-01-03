@@ -3,7 +3,12 @@
     background-color: rgb(var(--color-main-background));
 }
 
-#services h2,
+#services h2{
+    color: var(--color-main);
+}
+
+
+#services h3,
 #services .section-subtitle {
     color: var(--color-main-second);
 }
@@ -16,7 +21,7 @@
     /*text-indent: 1em;*/
 }
 
-#services .first{
+#services .second{
     display: none;
 }
 

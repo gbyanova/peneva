@@ -3,8 +3,6 @@
         --font-base-size: 12px;
     }
 
-
-
     #testimonials .testimonials-list {
         display: flex;
         flex-wrap: wrap;
@@ -28,7 +26,6 @@
     #contacts .cnt .contact-details {
         flex: 1 0 25%;
     }
-
 }
 
 @media only screen and (width > 480px) {
@@ -52,19 +49,15 @@
         flex: 1 0 25%;
     }
 
-
-
     #contacts .cnt {
         display: flex;
         flex-wrap: wrap;
         gap: 2em;
-
     }
 
     #contacts .cnt .contact-details {
         flex: 1 0 25%;
     }
-
 }
 
 @media only screen and (width > 768px) {
