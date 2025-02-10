@@ -1,0 +1,24 @@
+:root {
+    --font-base-size: 12px;
+    --font-line-height: 1.5;
+    --base-spacing: 1.5em;
+    --body-font-family: "Lato", "Helvetica", "Arial", sans-serif;
+    --headings-font-hamily: "Montserrat", sans-serif;
+
+    --font-color: #333;
+    --color-main-second: #0074b7;
+    --color-main: #003b73;
+    --color-main-background: 238, 238, 238;
+    --color-main-second-background: 0, 116, 183;
+    --color-main-first-background: 0, 59, 115;
+    --color-white: #ffffff;
+    --transparency: 0.7;
+
+    --border: 1px solid var(--color-main);
+    --border-color-main: 1px solid var(--color-main);
+    --border-color-main-second: 3px solid var(--color-second);
+    --border-color-main-background: 1px solid rgb(var(--color-main-background));
+
+    --box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.05);
+    --text-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.5);
+}

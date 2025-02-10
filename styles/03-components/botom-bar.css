@@ -1,0 +1,25 @@
+.botom-bar {
+    background-color: var(--font-color);
+    color: rgb(var(--color-main-background));
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.botom-bar .section-wraper {
+    padding: 0.5em;
+}
+
+.botom-bar span {
+    font-size: 0.7em;
+}
+
+.botom-bar a {
+    color: rgb(var(--color-main-background));
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.botom-bar a:hover {
+    color: var(--color-main-second);
+}

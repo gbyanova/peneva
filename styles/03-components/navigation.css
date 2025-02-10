@@ -1,0 +1,41 @@
+.navigation .open {
+    fill: var(--color-white);
+}
+
+.site-header nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(var(--color-main-background));
+    opacity: 90%;
+    padding: 1em 2em;
+    display: none;
+}
+
+.site-header nav li {
+    /*border-bottom: var(--border-color-main-background);*/
+    list-style-type: none;
+
+}
+
+.site-header .site-nav {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.site-header nav li a {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    color: var(--color-main-second);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.0625em;
+}
+
+#toggle-nav-label .close svg {
+    width: 2em;
+    height: auto;
+    fill: var(--color-main-second);
+}

@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    border-radius: 0.1em;
+    padding: 1em 3em;
+    transition: 0.5s;
+    box-shadow: var(--box-shadow);
+
+}
+
+.button a {
+    font-family: var(--body-font-family);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.0625em;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.light-button {
+    background-color: rgba(var(--color-main-background), 0.7);
+    border: 2px solid rgb(var(--color-main-second-background));
+}
+
+.light-button a {
+    color: var(--color-main-second);
+}
+
+.light-button:hover {
+    background-color: rgba(var(--color-main-first-background), 0.7);
+    cursor: pointer;
+    border: 2px solid rgb(var(--color-main-background));
+
+}
+
+.light-button:hover a {
+    color: rgb(var(--color-main-background));
+}
