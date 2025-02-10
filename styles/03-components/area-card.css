@@ -15,8 +15,13 @@ summary {
   /*font-weight: bold;*/
   text-transform: uppercase;
   color: rgb(var(--color-main-background));
-
+  transition: 0.5s;
 }
+
+summary:hover {
+    background-color: rgba(var(--color-white-rgb), 0.3);
+}
+
 
 summary,
 .details-info {

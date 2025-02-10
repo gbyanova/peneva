@@ -12,6 +12,7 @@
     --color-main-second-background: 0, 116, 183;
     --color-main-first-background: 0, 59, 115;
     --color-white: #ffffff;
+    --color-white-rgb: 254, 254, 254;
     --transparency: 0.7;
 
     --border: 1px solid var(--color-main);
