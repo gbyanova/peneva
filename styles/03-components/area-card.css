@@ -12,6 +12,7 @@ summary {
   align-items: center;
   cursor: pointer;
   list-style-type: none;
+  list-style: none;
   /*font-weight: bold;*/
   text-transform: uppercase;
   color: rgb(var(--color-main-background));
@@ -26,6 +27,7 @@ summary:hover {
 summary,
 .details-info {
   padding: .5em 1em;
+  
 }
 
 .details-info {
