@@ -3,16 +3,8 @@
         --font-base-size: 12px;
     }
 
-    #testimonials .testimonials-list {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        gap: 2em;
-        justify-content: center;
-    }
-
-    #testimonials .testimonials-list .testimonial {
-        flex: 1 0 25%;
+    #services .areas-list .det {
+        flex: 1 0 100%;
     }
 
     .contacts .section-wraper {
