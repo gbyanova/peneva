@@ -19,6 +19,10 @@ summary {
   transition: 0.5s;
 }
 
+summary::-webkit-details-marker {
+  display: none; /* Скрива триъгълника в Safari (WebKit) */
+}
+
 summary:hover {
     background-color: rgba(var(--color-white-rgb), 0.3);
 }
