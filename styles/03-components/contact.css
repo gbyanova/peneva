@@ -16,10 +16,3 @@
     font-family: var(--body-font-hamily);
     text-transform: uppercase;
 }
-
-#contact .cnt .contact-details .telephon-number {
-    color: rgb(var(--color-main-background));
-    text-decoration: none;
-    -webkit-touch-callout: none; /* Деактивира контекстното меню на iOS */
-    -webkit-text-size-adjust: none;
-}
