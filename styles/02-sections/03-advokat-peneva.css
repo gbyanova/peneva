@@ -1,6 +1,6 @@
 #advokat-peneva {
     background-color: var(--color-white);
-    /*color: var(--font-color);*/
+   
 }
 
 #advokat-peneva .one-col .section-resume {
@@ -23,7 +23,3 @@
 #advokat-peneva .two-col .peneva-copy {
     padding-bottom: 1.5em;
 }
-
-/*#advokat-peneva .two-col .peneva-copy p {
-    text-indent: 1em;
-}*/
