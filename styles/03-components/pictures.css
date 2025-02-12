@@ -1,0 +1,28 @@
+.image img{
+    position: relative;
+
+}
+
+.photo-credit-name{
+    font-weight: bold;
+}
+
+.image .photo-credit{
+    position: relative;
+    top: -2em;
+    left:  1em;
+    z-index: 1;
+    font-style: italic;
+    
+}
+
+.peneva-img .photo-credit span{   /* защо цвета не сработва?!?!? */
+    color: red !important;
+    
+}
+
+.photo-credit-label {
+
+}
+
+                            
