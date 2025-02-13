@@ -1,9 +1,7 @@
-
-
 @font-face {
     font-family: 'Montserrat';
     src: url('/peneva/fonts/Montserrat-Bold.woff2') format('woff2'),
-         url('/peneva/fonts/Montserrat-Bold.woff') format('woff');
+        url('/peneva/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -11,7 +9,7 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('/peneva/fonts/Montserrat-Bold.woff2') format('woff2'),
-         url('/peneva/fonts/Montserrat-Medium.woff') format('woff');
+        url('/peneva/fonts/Montserrat-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +17,7 @@
 @font-face {
     font-family: 'Lato';
     src: url('/peneva/fonts/Lato-Bold.woff2') format('woff2'),
-         url('/peneva/fonts/Lato-Bold.woff') format('woff');
+        url('/peneva/fonts/Lato-Bold.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
@@ -27,7 +25,7 @@
 @font-face {
     font-family: 'Lato';
     src: url('/peneva/fonts/Lato-Regular.woff2') format('woff2'),
-         url('/peneva/fonts/Lato-Regular.woff') format('woff');
+        url('/peneva/fonts/Lato-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,7 +33,7 @@
 @font-face {
     font-family: 'Lato';
     src: url('/peneva/fonts/Lato-Italic.woff2') format('woff2'),
-         url('/peneva/fonts/Lato-Italic.woff') format('woff');
+        url('/peneva/fonts/Lato-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -59,6 +57,9 @@ details,
 summary {
     font: inherit;
     color: var(--font-color);
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
 
 }
 
