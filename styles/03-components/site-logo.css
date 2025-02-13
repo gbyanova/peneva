@@ -1,6 +1,7 @@
 .site-logo {
-    text-align: left;
+    color: rgb(var(--color-main-background));
     position: relative;
+    text-align: left;
 }
 
 .site-logo a {
@@ -44,15 +45,15 @@
     /*letter-spacing: 0.1em;*/
 }
 
-.site-logo-footer a {
+/*.site-logo-footer a{
     color: rgb(var(--color-main-background));
-}
+}*/
 
 .navigation .site-logo {
-    position: absolute;
+    position: relative;
 }
 
 .navigation .site-logo .name {
     position: absolute;
-    bottom: -1em;
+    bottom: -0.5em;
 }

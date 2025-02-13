@@ -13,17 +13,29 @@
 
 }
 
-.navigation {
+/*.navigation {
     display: flex;
     flex-direction: column;
 
-}
+}*/
 
-.menu-button {}
+/*.menu-button {}*/
 
 .container {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    text-align: right;
+    flex-wrap: wrap;
+
+}
+
+.site-logo {
+    width: 80%;
+}
+
+#menu-toggle {
+    width: 20%;
+
 }
 
 #menu-toggle {
@@ -41,7 +53,7 @@
     border-radius: 0.1em;
     z-index: 1001;
     /*background-color: #0074b7;*/
-    border: 1px solid #ffffff;
+    /*border: 1px solid #ffffff;*/
     position: relative;
     z-index: 10;
     transform: translateZ(0);
