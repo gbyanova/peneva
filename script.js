@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menuLinks.forEach(link => {
         link.addEventListener("click", function () {
             mobileMenu.classList.remove("active");
+            menuToggle.classList.remove("open");
         })
     })
 });
