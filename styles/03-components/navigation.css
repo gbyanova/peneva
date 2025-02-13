@@ -42,8 +42,8 @@
     height: 2.5em;
     border-radius: 0.1em;
     z-index: 1001;
-    background-color: var(--color-main-background);
-    /*background-color: #f1c40f;*/
+    background-color: #0074b7;
+
     position: relative;
     z-index: 10;
     transform: translateZ(0);
