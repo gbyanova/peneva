@@ -62,6 +62,9 @@
     transition: all 0.2s ease;
     /* Плавни анимации при промяна на състоянието */
     z-index: 1005;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
 }
 
 #menu-toggle.open .bar:nth-child(1) {
