@@ -43,14 +43,13 @@
     border-radius: 0.1em;
     z-index: 1001;
     background-color: #0074b7;
-
     position: relative;
     z-index: 10;
     transform: translateZ(0);
 
 }
 
-.bar {
+#menu-toggle .bar {
     height: 0.2em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
@@ -62,9 +61,7 @@
     transition: all 0.2s ease;
     /* Плавни анимации при промяна на състоянието */
     z-index: 1005;
-    -webkit-appearance: none;
-    appearance: none;
-    -moz-appearance: none;
+
 }
 
 #menu-toggle.open .bar:nth-child(1) {
