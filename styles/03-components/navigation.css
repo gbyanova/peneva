@@ -19,13 +19,11 @@
 
 }
 
-.menu-button {
-    text-align: right;
-
-}
+.menu-button {}
 
 .container {
     width: 100%;
+    text-align: right;
 }
 
 #menu-toggle {
@@ -42,7 +40,8 @@
     height: 2.5em;
     border-radius: 0.1em;
     z-index: 1001;
-    background-color: #0074b7;
+    /*background-color: #0074b7;*/
+    border: 1px solid #ffffff;
     position: relative;
     z-index: 10;
     transform: translateZ(0);
@@ -50,8 +49,8 @@
 }
 
 #menu-toggle .bar {
-    height: 0.5em;
-    margin-top: 0.5em;
+    height: 0.2em;
+    margin-top: 0.2em;
     margin-bottom: 0.2em;
     display: block;
     background-color: #ffffff;
