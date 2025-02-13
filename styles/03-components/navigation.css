@@ -1,27 +1,97 @@
-.navigation .open {
-    fill: var(--color-white);
+#mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    margin-top: 6em;
+}
+
+#mobile-menu.active {
+    display: block;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-button {
+    text-align: right;
+
+}
+
+.container {
+    width: 100%;
+}
+
+#menu-toggle {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.1em;
+    outline: none;
+    padding: 0.3em 0.5em;
+
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 0.1em;
+    z-index: 1001;
+    background-color: var(--color-main-background);
+
+}
+
+.bar {
+    height: 0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    display: block;
+    background-color: var(--color-white);
+    /* Бял цвят за линиите */
+    border-radius: 0.1em;
+    transition: all 0.2s ease;
+    /* Плавни анимации при промяна на състоянието */
+}
+
+#menu-toggle.open .bar:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.4em;
+}
+
+#menu-toggle.open .bar:nth-child(2) {
+    opacity: 0;
+    /* Скрива средната линия */
+}
+
+#menu-toggle.open .bar:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -0.4em;
 }
 
 .site-header nav {
-    position: absolute;
     width: 100%;
-    top: 0;
-    left: 0;
     background: rgb(var(--color-main-background));
-    opacity: 90%;
+    opacity: 95%;
     padding: 1em 2em;
-    display: none;
+
 }
 
 .site-header nav li {
-    /*border-bottom: var(--border-color-main-background);*/
     list-style-type: none;
 
 }
 
 .site-header .site-nav {
-    margin-top: 2em;
+    margin-top: 0.7em;
     width: 100%;
+
 }
 
 .site-header nav li a {
@@ -32,10 +102,5 @@
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.0625em;
-}
 
-#toggle-nav-label .close svg {
-    width: 2em;
-    height: auto;
-    fill: var(--color-main-second);
 }
