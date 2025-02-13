@@ -51,8 +51,8 @@
     margin-top: 0.2em;
     margin-bottom: 0.2em;
     display: block;
-    background-color: rgb(var(--color-white-rgb));
-    -webkit-background-color: rgb(var(--color-white-rgb));
+    background-color: var(--color-white);
+    -webkit-background-color: var(--color-white);
     /* Бял цвят за линиите */
     border-radius: 0.1em;
     transition: all 0.2s ease;
