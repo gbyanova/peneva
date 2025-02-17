@@ -1,12 +1,15 @@
 .site-logo {
     color: rgb(var(--color-main-background));
     position: relative;
+    bottom: -0.5em;
     text-align: left;
+    font-size: 1.2em;
+
 }
 
 .site-logo a {
     text-decoration: none;
-    color: var(--color-white);
+    color: rgb(var(--color-main-background));
 
 }
 
@@ -14,9 +17,7 @@
     font-family: var(--body-font-family);
     text-transform: uppercase;
     padding-bottom: 0;
-    /*font-weight: 200;*/
     display: block;
-    font-size: 1.2em;
 
 }
 
@@ -25,7 +26,6 @@
     text-transform: uppercase;
     padding-bottom: 0;
     display: block;
-    font-size: 1.2em;
     position: absolute;
     bottom: -1em;
     letter-spacing: 1px;
@@ -43,14 +43,6 @@
     font-weight: bolder;
     /*color: var(--color-main);*/
     /*letter-spacing: 0.1em;*/
-}
-
-/*.site-logo-footer a{
-    color: rgb(var(--color-main-background));
-}*/
-
-.navigation .site-logo {
-    position: relative;
 }
 
 .navigation .site-logo .name {
