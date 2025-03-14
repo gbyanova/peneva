@@ -15,7 +15,7 @@
 }
 
 .botom-bar a {
-    color: rgb(var(--color-main-background));
+    color: rgba(var(--color-white-rgb), var(--transparency));
     text-decoration: none;
     transition: 0.5s;
     font-weight: bold;
@@ -26,8 +26,10 @@
 }
 
 .botom-bar .copyrights {
-    border-bottom: var(--border);
-    padding-bottom: 0.4em;
+    /*border-bottom: var(--border);*/
+    padding-bottom: 0.3em;
+    color: rgba(var(--color-white-rgb), var(--transparency));
+
 }
 
 .botom-bar .botom span {
