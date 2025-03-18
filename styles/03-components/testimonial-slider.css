@@ -46,10 +46,10 @@
 }
 
 #testimonials .slider-wraper .owerflow {
-    background-color: var(--color-white);
+    /*background-color: var(--color-white);*/
     padding: 3em 3em 1.5em 3em;
     border-radius: 0.1em;
-    box-shadow: var(--box-shadow);
+    /*box-shadow: var(--box-shadow);*/
 }
 
 #testimonials .slider-wraper .owerflow blockquote {

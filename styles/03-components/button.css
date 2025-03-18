@@ -1,7 +1,7 @@
 .button {
     white-space: nowrap;
     border-radius: 0.2em;
-    padding: 1em 3em;
+    padding: 1em 1.5em;
     transition: 0.5s;
     box-shadow: var(--box-shadow);
     width: auto;
@@ -15,5 +15,5 @@
     font-weight: bold;
     letter-spacing: 0.0625em;
     text-decoration: none;
-    
+
 }
