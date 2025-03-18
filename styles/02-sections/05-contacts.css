@@ -1,8 +1,11 @@
 .contacts {
     background-color: var(--color-main-second);
     color: rgb(var(--color-main-background));
-    /*background: linear-gradient(180deg, rgba(var(--color-main-second-background), 1), rgba(var(--color-main-first-background), 0.6)), url("./../../images/scale.png")rgba(var(--color-main-first-background), 0.6);*/
-    background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/scale.png");
+    /*background: linear-gradient(180deg, rgba(var(--color-main-second-background), 1), rgba(var(--color-main-first-background), 0.6)), url("./../../images/scale.png")rgba(var(--color-main-first-background), 0.6);
+    background: linear-gradient(0deg, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)), url("./../../images/scale.png");*/
+
+    background: radial-gradient(circle, rgba(var(--color-main-second-background), 0.6), rgba(var(--color-main-first-background), 1)),
+        url("./../../images/scale.png");
     background-position: center;
     background-repeat: no-repeat;
 }
