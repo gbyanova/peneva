@@ -1,6 +1,6 @@
 .dark-button {
-    background-color: rgba(var(--color-main-first-background), 0.7);
-    /*border: 1px solid rgb(var(--color-main-background));*/
+    /*background-color: rgba(var(--color-main-first-background), 0.7);*/
+    border: 1px solid rgb(var(--color-main-background));
 
 }
 

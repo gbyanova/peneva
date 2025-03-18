@@ -1,9 +1,11 @@
 .button {
-    display: inline-block;
-    border-radius: 0.1em;
+    white-space: nowrap;
+    border-radius: 0.2em;
     padding: 1em 3em;
     transition: 0.5s;
     box-shadow: var(--box-shadow);
+    width: auto;
+    align-self: center;
 
 }
 
@@ -13,6 +15,5 @@
     font-weight: bold;
     letter-spacing: 0.0625em;
     text-decoration: none;
-    width: 100%;
     
 }
